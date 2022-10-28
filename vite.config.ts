@@ -13,8 +13,6 @@ export default defineConfig({
       fileName: 'my-lib',
     },
   },
-  test: {
-    // ...
-  },
+  test: {},
   plugins: [dts()],
 });
