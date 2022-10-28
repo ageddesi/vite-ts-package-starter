@@ -22,11 +22,14 @@
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "lint": "eslint . --ext .ts",
-    "lint-and-fix": "eslint . --ext .ts --fix"
+    "lint-and-fix": "eslint . --ext .ts --fix",
+    "pretty": "prettier --write \"src/**/*.ts\"",
+    "clean-up": "npm run lint-and-fix & npm run pretty"
   },
   "devDependencies": {
     "@vitest/coverage-c8": "^0.24.3",
     "eslint": "^8.26.0",
+    "prettier": "2.7.1",
     "semantic-release": "^19.0.5",
     "typescript": "^4.6.4",
     "vite": "^3.2.0",
@@ -41,7 +44,6 @@
     "@typescript-eslint/parser": "^5.41.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
-    "prettier": "^2.7.1",
     "vite-plugin-dts": "^1.6.6"
   }
 }
