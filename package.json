@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@vitest/coverage-c8": "^0.24.3",
+    "semantic-release": "^19.0.5",
     "typescript": "^4.6.4",
     "vite": "^3.2.0",
     "vitest": "^0.24.3"

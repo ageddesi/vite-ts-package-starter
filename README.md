@@ -28,3 +28,9 @@ npm pack
 
 ## Dry run the npm release package
 npm pack --dry-run
+
+
+## Semantic Release
+This project already has semantic-release as a dependecy. To get the full benifits of this all commit messages should be in the format it requires. You can see that in their readme [here](https://github.com/semantic-release/semantic-release)
+
+The next step is for your CI to be setup to use semantic-release. You can read how to do that [here](https://github.com/semantic-release/semantic-release/blob/HEAD/docs/usage/getting-started.md#getting-started)
