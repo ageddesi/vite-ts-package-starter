@@ -1,0 +1,34 @@
+{
+  "name": "ts-npm-package-boilerplate",
+  "version": "0.0.0",
+  "type": "module",
+  "author": {
+    "name": "Aaron Rackley",
+    "email": "aaron.rackley@tribalworldwide.co.uk"
+  },
+  "main": "./dist/my-lib.umd.cjs",
+  "module": "./dist/my-lib.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/my-lib.js",
+      "require": "./dist/my-lib.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.24.3",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.0",
+    "vitest": "^0.24.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
