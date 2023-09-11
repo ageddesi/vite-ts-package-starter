@@ -14,8 +14,8 @@ jobs:
       - name: Install NPM dependencies
         run: npm install
       - name: Run tests 
-        run: npm test
+        run: npm run test
       - name: Clean up files
-        run: npm clean-up
+        run: npm run clean-up
       - name: Attempt dry run build of package
-        run: npm pack --dry-run
+        run: npm run pack --dry-run
