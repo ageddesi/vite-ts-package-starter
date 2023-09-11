@@ -18,4 +18,4 @@ jobs:
       - name: Clean up files
         run: npm run clean-up
       - name: Attempt dry run build of package
-        run: npm run pack --dry-run
+        run: npm pack --dry-run
