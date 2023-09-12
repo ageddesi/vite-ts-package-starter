@@ -27,23 +27,23 @@
     "clean-up": "npm run lint-and-fix & npm run pretty"
   },
   "devDependencies": {
-    "@vitest/coverage-c8": "^0.24.3",
-    "eslint": "^8.26.0",
-    "prettier": "2.7.1",
+    "@vitest/coverage-c8": "^0.33.0",
+    "eslint": "^8.49.0",
+    "prettier": "^3.0.3",
     "semantic-release": "^21.1.1",
-    "typescript": "^4.6.4",
-    "vite": "^3.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
     "vite-plugin-eslint": "^1.8.1",
-    "vitest": "^0.24.3"
+    "vitest": "^0.34.4"
   },
   "files": [
     "dist"
   ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.41.0",
-    "@typescript-eslint/parser": "^5.41.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
-    "vite-plugin-dts": "^1.6.6"
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "vite-plugin-dts": "^3.5.3"
   }
 }
